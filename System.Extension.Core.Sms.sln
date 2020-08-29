@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45719214-2B36-4B59-9ADD-9B4202E8B871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInfrastructure.Core.Sms.AliDaYu", "src\EInfrastructure.Core.Sms.AliDaYu\EInfrastructure.Core.Sms.AliDaYu.csproj", "{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4FB84B6-D359-4932-A0E5-DD4637626645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInfrastructure.Core.Sms.AliDaYu.Test", "test\EInfrastructure.Core.Sms.AliDaYu.Test\EInfrastructure.Core.Sms.AliDaYu.Test.csproj", "{BB04EED1-0D25-4486-938D-F3D99C9FBA10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0} = {45719214-2B36-4B59-9ADD-9B4202E8B871}
+		{BB04EED1-0D25-4486-938D-F3D99C9FBA10} = {F4FB84B6-D359-4932-A0E5-DD4637626645}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98A2BD6-9BF9-42E0-9ABB-32569AF093A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB04EED1-0D25-4486-938D-F3D99C9FBA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB04EED1-0D25-4486-938D-F3D99C9FBA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB04EED1-0D25-4486-938D-F3D99C9FBA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB04EED1-0D25-4486-938D-F3D99C9FBA10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
